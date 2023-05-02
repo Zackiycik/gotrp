@@ -1,0 +1,530 @@
+{
+    "askeriye": {
+        "acemi-piyade": {
+            "isim": "Acemi Piyade",
+            "id": 1,
+            "kategori": "acemi",
+            "fiyat": {
+                "tur": "ae",
+                "miktar": 1
+            },
+            "bakim": {
+                "tur": "gg",
+                "miktar": 5
+            }
+        },
+        "acemi-okçu": {
+            "isim": "Acemi Okçu",
+            "id": 2,
+            "kategori": "acemi",
+            "fiyat": {
+                "tur": "ae",
+                "miktar": 2
+            },
+            "bakim": {
+                "tur": "gg",
+                "miktar": 10
+            }
+        },
+        "acemi-süvari": {
+            "isim": "Acemi Süvari",
+            "id": 3,
+            "kategori": "acemi",
+            "fiyat": {
+                "tur": "ae",
+                "miktar": 3
+            },
+            "bakim": {
+                "tur": "gg",
+                "miktar": 15
+            }
+        },
+        "acemi-mızraklı": {
+            "isim": "Acemi Mızraklı",
+            "id": 4,
+            "kategori": "acemi",
+            "fiyat": {
+                "tur": "ae",
+                "miktar": 2
+            },
+            "bakim": {
+                "tur": "gg",
+                "miktar": 10
+            }
+        },
+        "tecrübeli-piyade": {
+            "isim": "Tecrübeli Piyade",
+            "id": 5,
+            "kategori": "tecrübeli",
+            "fiyat": {
+                "tur": "Yok",
+                "miktar": 0
+            },
+            "bakim": {
+                "tur": "gg",
+                "miktar": 10
+            }
+        },
+        "tecrübeli-okçu": {
+            "isim": "Tecrübeli Okçu",
+            "id": 6,
+            "kategori": "tecrübeli",
+            "fiyat": {
+                "tur": "Yok",
+                "miktar": 0
+            },
+            "bakim": {
+                "tur": "gg",
+                "miktar": 20
+            }
+        },
+        "tecrübeli-süvari": {
+            "isim": "Tecrübeli Süvari",
+            "id": 7,
+            "kategori": "tecrübeli",
+            "fiyat": {
+                "tur": "Yok",
+                "miktar": 0
+            },
+            "bakim": {
+                "tur": "gg",
+                "miktar": 25
+            }
+        },
+        "tecrübeli-mızraklı": {
+            "isim": "Tecübeli Mızraklı",
+            "id": 8,
+            "kategori": "tecrübeli",
+            "fiyat": {
+                "tur": "Yok",
+                "miktar": 0
+            },
+            "bakim": {
+                "tur": "gg",
+                "miktar": 15
+            }
+        },
+        "usta-piyade": {
+            "isim": "Usta Piyade",
+            "id": 9,
+            "kategori": "usta",
+            "fiyat": {
+                "tur": "Yok",
+                "miktar": 0
+            },
+            "bakim": {
+                "tur": "gg",
+                "miktar": 15
+            }
+        },
+        "usta-okçu": {
+            "isim": "Usta Okçu",
+            "id": 10,
+            "kategori": "usta",
+            "fiyat": {
+                "tur": "Yok",
+                "miktar": 0
+            },
+            "bakim": {
+                "tur": "gg",
+                "miktar": 25
+            }
+        },
+        "usta-süvari": {
+            "isim": "Usta Süvari",
+            "id": 11,
+            "kategori": "usta",
+            "fiyat": {
+                "tur": "Yok",
+                "miktar": 0
+            },
+            "bakim": {
+                "tur": "gg",
+                "miktar": 35
+            }
+        },
+        "usta-mızraklı": {
+            "isim": "Usta Mızraklı",
+            "id": 12,
+            "kategori": "usta",
+            "fiyat": {
+                "tur": "Yok",
+                "miktar": 0
+            },
+            "bakim": {
+                "tur": "gg",
+                "miktar": 20
+            }
+        },
+        "eğitimli-piyade": {
+            "isim": "Eğitimli Piyade",
+            "id": 13,
+            "kategori": "eğitimli",
+            "fiyat": {
+                "tur": "ds",
+                "miktar": 25
+            },
+            "bakim": {
+                "tur": "ds",
+                "miktar": 4
+            }
+        },
+        "eğitimli-okçu": {
+            "isim": "Eğitimli Okçu",
+            "id": 14,
+            "kategori": "eğitimli",
+            "fiyat": {
+                "tur": "ds",
+                "miktar": 30
+            },
+            "bakim": {
+                "tur": "ds",
+                "miktar": 6
+            }
+        },
+        "eğitimli-süvari": {
+            "isim": "Eğitimli Süvari",
+            "id": 15,
+            "kategori": "eğitimli",
+            "fiyat": {
+                "tur": "ds",
+                "miktar": 40
+            },
+            "bakim": {
+                "tur": "ds",
+                "miktar": 10
+            }
+        },
+        "eğitimli-mızraklı": {
+            "isim": "Eğitimli Mızraklı",
+            "id": 16,
+            "kategori": "eğitimli",
+            "fiyat": {
+                "tur": "ds",
+                "miktar": 35
+            },
+            "bakim": {
+                "tur": "ds",
+                "miktar": 7
+            }
+        },
+        "mızraklı-lekesiz": {
+            "isim": "Mızraklı Lekesiz",
+            "id": 17,
+            "kategori": "lekesiz",
+            "fiyat": {
+                "tur": "ds",
+                "miktar": 1500
+            },
+            "bakim": {
+                "tur": "ds",
+                "miktar": 100
+            }
+        },
+        "dothraki-süvarisi": {
+            "isim": "Dothraki Süvarisi",
+            "id": 18,
+            "kategori": "dothraki",
+            "fiyat": {
+                "tur": "ds",
+                "miktar": 20
+            },
+            "bakim": {
+                "tur": "ds",
+                "miktar": 3
+            }
+        },
+        "kadırga": {
+            "isim": "Kadırga",
+            "id": 19,
+            "kategori": "gemi",
+            "fiyat": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 2000
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 3000
+                }
+            },
+            "bakim": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 25
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 100
+                }
+            }
+        },
+        "kalyon": {
+            "isim": "Kalyon",
+            "id": 20,
+            "kategori": "gemi",
+            "fiyat": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 5000
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 5000
+                }
+            },
+            "bakim": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 50
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 200
+                }
+            }
+        },
+        "kuğu-gemisi": {
+            "isim": "Kuğu Gemisi",
+            "id": 21,
+            "kategori": "gemi",
+            "fiyat": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 7500
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 6000
+                }
+            },
+            "bakim": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 500
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 250
+                }
+            }
+        },
+        "dramond": {
+            "isim": "Dramond",
+            "id": 22,
+            "kategori": "gemi",
+            "fiyat": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 3000
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 4000
+                }
+            },
+            "bakim": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 35
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 150
+                }
+            }
+        },
+        "uzun-gemi": {
+            "isim": "Uzun Gemi",
+            "id": 23,
+            "kategori": "gemi",
+            "fiyat": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 750
+                }
+            },
+            "bakim": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 10
+                }
+            }
+        },
+        "ticaret-gemisi": {
+            "isim": "Ticaret Gemisi",
+            "id": 24,
+            "kategori": "gemi",
+            "fiyat": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 150
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 150
+                }
+            },
+            "bakim": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 0
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 0
+                }
+            }
+        },
+        "kuşatma-merdiveni": {
+            "isim": "Kuşatma Merdiveni",
+            "id": 25,
+            "kategori": "kuşatma",
+            "fiyat": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 50
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 60
+                }
+            },
+            "bakim": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 0
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 0
+                }
+            }
+        },
+        "koçbaşı": {
+            "isim": "Koçbaşı",
+            "id": 26,
+            "kategori": "kuşatma",
+            "fiyat": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 150
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 62000
+                }
+            },
+            "bakim": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 0
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 0
+                }
+            }
+        },
+        "kuşatma-kulesi": {
+            "isim": "Kuşatma Kulesi",
+            "id": 27,
+            "kategori": "kuşatma",
+            "fiyat": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 250
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 275
+                }
+            },
+            "bakim": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 0
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 0
+                }
+            }
+        },
+        "mancınık": {
+            "isim": "Mancınık",
+            "id": 28,
+            "kategori": "kuşatma",
+            "fiyat": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 500
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 550
+                }
+            },
+            "bakim": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 0
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 0
+                }
+            }
+        },
+        "trebüşe": {
+            "isim": "Trebüşe",
+            "id": 29,
+            "kategori": "kuşatma",
+            "fiyat": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 750
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 800
+                }
+            },
+            "bakim": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 0
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 0
+                }
+            }
+        },
+        "akrep": {
+            "isim": "Akrep",
+            "id": 30,
+            "kategori": "kuşatma",
+            "fiyat": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 1000
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 1100
+                }
+            },
+            "bakim": {
+                "westeros": {
+                    "tur": "ae",
+                    "fiyat": 0
+                },
+                "essos": {
+                    "tur": "ds",
+                    "fiyat": 0
+                }
+            }
+        }
+    }
+}
